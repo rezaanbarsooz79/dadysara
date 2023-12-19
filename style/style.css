@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:300,400);
 
 body {
-    font-size: 16px;
-    background: #ecf0f1;
+    font-size: 12px;
+    background-color: #333;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -11,15 +11,18 @@ section {
     display: grid;
     width: 400px;
     margin: 40px auto;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+    background: #333;
+    /* box-shadow: 1px 1px 4px rgba(0, 0, 0, .2); */
 }
-.img-con{
+
+.img-con {
     background-image: url(../assets/photo_2023-12-19_14-43-44.jpg);
     filter: grayscale(100);
     width: 400px;
     height: 200px;
     background-size: cover;
 }
+
 img {
     display: block;
     max-height: 200px;
@@ -27,9 +30,8 @@ img {
 }
 
 header {
-    background: #ecf0f1;
     max-height: 190px;
-    background: rgba(236, 240, 241, .9);
+    background-color: #555;
     overflow: hidden;
 }
 
@@ -51,7 +53,7 @@ header {
     height: 40px;
     width: 40px;
     border: 0;
-    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/1383113001_playback_play.png') center center no-repeat;
+    background-color: #555;
 
     &:focus {
         outline: none;
@@ -59,7 +61,7 @@ header {
 }
 
 #pause {
-    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/1383113014_playback_pause.png') center center no-repeat;
+    /* background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/1383113014_playback_pause.png') center center no-repeat; */
     height: 50px;
     width: 50px;
     border: 0;
@@ -71,10 +73,14 @@ header {
 
 h1 {
     font-size: 1.5em;
-    color: #333;
+    color: #fff;
 }
 
 h2 {
     margin: 5px 0;
-    color: rgba(149, 165, 166, 1.0);
+    color: #aaa;
+}
+
+.btn {
+
 }
